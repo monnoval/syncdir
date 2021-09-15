@@ -1,0 +1,29 @@
+## General
+.cvs
+.htaccess
+.svn
+*.bak
+*.log
+*.swp
+*.sublime-*
+*.idea
+*.cache
+tags
+tags.*
+
+## Windows
+Desktop.ini
+Thumbs.db
+
+## Mac
+.DS_Store
+
+## Explicitly exclude
+config.json
+
+## Development
+.yarn
+.yarnrc*
+.sass-cache
+node_modules
+package-lock.json

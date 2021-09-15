@@ -1,0 +1,8 @@
+# compressed files
+*.min.*
+*.map
+
+# lock files
+yarn.lock
+package.lock
+package-lock.json

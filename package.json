@@ -1,0 +1,31 @@
+{
+  "name": "syncdir",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@git.fastbooking.ch:webprogram/syncdir.git",
+  "author": "Mon Noval <msnoval@d-edge.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp sync",
+    "clean": "gulp clean",
+    "build": "gulp prod"
+  },
+  "config": {
+    "src": "./",
+    "dest": ""
+  },
+  "dependencies": {
+    "del": "^6.0.0",
+    "fs-extra": "^10.0.0",
+    "gulp": "^4.0.2",
+    "lodash.merge": "^4.6.2",
+    "minimist": "^1.2.5",
+    "untildify": "^4.0.0"
+  },
+  "packageManager": "yarn@3.0.2",
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">= 3.0.2",
+    "node": ">= 16.9.1"
+  }
+}
