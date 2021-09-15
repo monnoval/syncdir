@@ -49,7 +49,7 @@ const globsToUse = [
 	'!tags*',
 ]
 
-function config () {
+function config() {
 	if ( !isValidProject )
 		return false
 	console.log( '--------' )
@@ -90,7 +90,7 @@ function watcher(cb) {
 	)
 }
 
+exports.config = series( config )
 exports.clean  = series( clean )
 exports.sync   = series( clean, copy, watcher )
 exports.prod   = series( clean, copy )
-exports.config = series( config )

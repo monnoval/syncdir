@@ -5,11 +5,6 @@
   "repository": "git@git.fastbooking.ch:webprogram/syncdir.git",
   "author": "Mon Noval <msnoval@d-edge.com>",
   "license": "MIT",
-  "scripts": {
-    "start": "gulp sync",
-    "clean": "gulp clean",
-    "build": "gulp prod"
-  },
   "config": {
     "src": "./",
     "dest": ""
