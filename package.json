@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "repository": "git@git.fastbooking.ch:webprogram/syncdir.git",
-  "author": "Mon Noval <msnoval@d-edge.com>",
+  "author": "Mon Noval <mon@duck.com>",
   "license": "MIT",
   "config": {
     "src": "./",

@@ -1,12 +1,14 @@
 # Sync Directory
 
+Simple one way copy of files inside a directory from folderA to folderB.
+
 ## Table of Contents
 - [Install](#install)
 - [Setup](#setup)
 - [Usage](#usage)
 - [Bash integration](#bash-integration)
 
-#### Install
+## Install
 
 ```shell
 $ yarn
@@ -16,7 +18,7 @@ Requirements:
 - yarn >= 3.0.2
 - node >= 16.9.1
 
-#### Setup
+## Setup
 
 Required to have `config.json` like the following
 
@@ -34,12 +36,12 @@ Required to have `config.json` like the following
 }
 ```
 
-__Important__
+#### Important
 
 Careful with `forceDeleteDest`, if true then you are ok to empty the `dest` path<br/>
 Do make sure that the dest path is not an important folder since clean task would empty it.
 
-#### Usage
+## Usage
 
 ```shell
 $ gulp sync --project=projectname      # copy files to another dir
@@ -47,7 +49,7 @@ $ gulp clean --project=projectname     # empty dir of dest dir
 $ gulp build  --project=projectname    # same with sync task without gulp watch
 ```
 
-#### Bash integration
+## Bash integration
 
 In your `~/.bash_profile` you can set the following
 ```shell
