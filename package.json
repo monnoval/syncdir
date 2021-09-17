@@ -5,10 +5,6 @@
   "repository": "git@git.fastbooking.ch:webprogram/syncdir.git",
   "author": "Mon Noval <mon@duck.com>",
   "license": "MIT",
-  "config": {
-    "src": "./",
-    "dest": ""
-  },
   "dependencies": {
     "del": "^6.0.0",
     "fs-extra": "^10.0.0",
