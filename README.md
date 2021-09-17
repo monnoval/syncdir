@@ -11,6 +11,7 @@ Simple one way copy of files inside a directory from folderA to folderB.
 ## Install
 
 ```shell
+$ nvm use
 $ yarn
 ```
 
