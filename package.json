@@ -16,7 +16,7 @@
   "packageManager": "yarn@3.0.2",
   "engines": {
     "npm": "please-use-yarn",
-    "yarn": ">= 3.0.2",
-    "node": ">= 16.9.1"
+    "yarn": ">= 3",
+    "node": ">= 16"
   }
 }

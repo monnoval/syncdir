@@ -16,8 +16,8 @@ $ yarn
 ```
 
 Requirements:
-- yarn >= 3.0.2
-- node >= 16.9.1
+- yarn >= 3
+- node >= 16
 
 ## Setup
 
