@@ -46,6 +46,7 @@ const globsToUse = [
 	'!package.json',  // explicit
 	'!config.json',   // explicit
 	'!gulpfile.js',   // explicit
+	'!playwright.*',  // explicit
 	'!tags*',
 ]
 
