@@ -20,7 +20,7 @@ fi
 # list of projects
 _codeComplete() {
 	local cur=${COMP_WORDS[COMP_CWORD]}
-	COMPREPLY=( $(compgen -W "$(eval cd $SYNCD_DIR && yarn list)" -- $cur) )
+	COMPREPLY=( $(compgen -W "$(eval cd $SYNCD_DIR && yarn cli-list)" -- $cur) )
 }
 
 # tab completion for projects
@@ -29,7 +29,7 @@ complete -F _codeComplete syncdirConfig
 complete -F _codeComplete syncdirClean
 complete -F _codeComplete syncdirProd
 
-syncdir()       { eval cd $SYNCD_DIR && yarn sync --project=$1 && cd -; }
-syncdirConfig() { eval cd $SYNCD_DIR && yarn config --project=$1 && cd -; }
-syncdirClean()  { eval cd $SYNCD_DIR && yarn clean --project=$1 && cd -; }
-syncdirProd()   { eval cd $SYNCD_DIR && yarn prod --project=$1 && cd -; }
+syncdir()       { eval cd $SYNCD_DIR && gulp sync --project=$1 && cd -; }
+syncdirConfig() { eval cd $SYNCD_DIR && gulp config --project=$1 && cd -; }
+syncdirClean()  { eval cd $SYNCD_DIR && gulp clean --project=$1 && cd -; }
+syncdirProd()   { eval cd $SYNCD_DIR && gulp prod --project=$1 && cd -; }
