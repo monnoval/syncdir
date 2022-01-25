@@ -5,6 +5,13 @@
   "repository": "git@git.fastbooking.ch:webprogram/syncdir.git",
   "author": "Mon Noval <mon@duck.com>",
   "license": "MIT",
+  "scripts": {
+    "config": "gulp config",
+    "clean": "gulp clean",
+    "prod": "gulp prod",
+    "sync": "gulp sync",
+    "list": "node cli.js --list"
+  },
   "dependencies": {
     "del": "^6.0.0",
     "fs-extra": "^10.0.0",
@@ -13,7 +20,7 @@
     "minimist": "^1.2.5",
     "untildify": "^4.0.0"
   },
-  "packageManager": "yarn@3.1.0",
+  "packageManager": "yarn@3.1.1",
   "engines": {
     "npm": "please-use-yarn",
     "yarn": ">= 3",
