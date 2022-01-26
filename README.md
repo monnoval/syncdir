@@ -10,18 +10,14 @@ Simple one way copy of files inside a directory from folderA to folderB.
 
 ## Install
 
+Requirements:
+- yarn >= 1.22
+- node >= 16
+
 ```shell
 $ nvm use
 $ yarn
 ```
-
-Requirements:
-- yarn >= 3
-- node >= 16
-
-#### Prepping yarn
-
-From [Per-project install](https://yarnpkg.com/getting-started/install#per-project-install) you can do `yarn set version berry` to set the yarn version to 3.
 
 ## Setup
 
