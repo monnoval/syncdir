@@ -20,7 +20,7 @@ fi
 # list of projects
 _codeComplete() {
 	local cur=${COMP_WORDS[COMP_CWORD]}
-	COMPREPLY=( $(compgen -W "$(eval cd $SYNCD_DIR && yarn cli-list)" -- $cur) )
+	COMPREPLY=( $(compgen -W "$(eval cd $SYNCD_DIR && node cli.js --list)" -- $cur) )
 }
 
 # tab completion for projects
